@@ -11,7 +11,8 @@ function TaskForm({ onAddTask }) {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="task-form">
+    <form onSubmit={handleSubmit} className="task-form"> 
+    <h1>Enter your todo list</h1>
       <input
         type="text"
         value={task}
