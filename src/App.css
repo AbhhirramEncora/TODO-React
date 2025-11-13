@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.task-form {
+  margin-bottom: 20px;
+}
+
+.task-form input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  margin-right: 10px;
+}
+
+.task-form button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #0078ff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.task-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  gap: 10px;
+}
+
+.task-item button {
+  background-color: wheat;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.no-tasks {
+  color: gray;
+  margin-top: 20px;
+}
